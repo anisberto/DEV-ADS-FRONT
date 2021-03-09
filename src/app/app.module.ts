@@ -7,7 +7,8 @@ import { HomeComponent } from './navegation/home/home.component';
 import { HeadeComponent } from './navegation/heade/heade.component';
 import { FooterComponent } from './navegation/footer/footer.component';
 import { ContatosComponent } from './agenda/contatos/contatos.component';
-import { ServicosComponent } from './agenda/contato/contato.component';
+import { ContatoComponent } from './agenda/contato/contato.component';
+import { UpdateComponent } from './agenda/update/update.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ServicosComponent } from './agenda/contato/contato.component';
     HeadeComponent,
     FooterComponent,
     ContatosComponent,
-    ServicosComponent
+    ContatoComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
