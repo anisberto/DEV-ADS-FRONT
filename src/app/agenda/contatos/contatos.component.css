@@ -12,11 +12,11 @@
     max-width: 400px;
     min-height: 320px;
     background-color: #fff;
-    border-radius: 0 0 25px 25px;
+    border-radius: 25px 25px 20px 20px !important;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 8px #ccc;
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 0 0 8px 0;
     text-align: center;
 }
@@ -79,12 +79,12 @@
 /* Colors */
 
 .pt-bg-black span:first-child {
-    background-color: #212121;
+    background-color: #03438b;
     color: #fcfcfc;
 }
 
 .pt-bg-black span:nth-child(2) {
-    background-color: #212121;
+    background-color: #03438b;
     color: #D5D8DC;
 }
 
