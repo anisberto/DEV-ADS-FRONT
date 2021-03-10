@@ -9,6 +9,7 @@ import { FooterComponent } from './navegation/footer/footer.component';
 import { ContatosComponent } from './agenda/contatos/contatos.component';
 import { ContatoComponent } from './agenda/contato/contato.component';
 import { UpdateComponent } from './agenda/update/update.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UpdateComponent } from './agenda/update/update.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
